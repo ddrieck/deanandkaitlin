@@ -1,0 +1,39 @@
+section {
+	height: 150px;
+}
+
+.our-photos {
+	background-color: red;
+}
+
+.our-story {
+	background-color: blue;
+}
+
+.wedding-party {
+	background-color: yellow;
+}
+
+.schedule {
+	background-color: green;
+}
+
+.rsvp {
+	background-color: orange;
+}
+
+.venue-photo {
+	background-color: gray;
+}
+
+.venue-desc {
+	background-color: purple;
+}
+
+.places {
+	background-color: blue;
+}
+
+.registry {
+	background-color: yellow;
+}
