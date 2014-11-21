@@ -1,39 +1,97 @@
-section {
-	height: 150px;
+body {
+	margin: 0 5% 0 5%;
+	/*background-image: url(../images/IMG_2194.jpg);*/
+	background-image: url(../images/background.jpg);
+	background-size: no-repeat center center fixed;
+}
+
+h1, h2, h3 {
+	font-family: 'Playball', cursive;
+}
+
+p {
+	font-family: 'Antic Slab', serif;
+}
+
+.carousel-control.left, .carousel-control.right{
+	background-image: none;
+	width: 20px;
+}
+
+.carousel-indicators {
+	bottom: -45px;
+}
+
+.heading {
+	background: #c2c4be;
+	border: solid black 1px;
+	margin-top: 2%;
+}
+
+#title {
+	padding-left: 20%;
+	font-size: 6em;
 }
 
 .our-photos {
-	background-color: red;
+	margin: 1% 1% 1% 0%;
+	background: black;
+	border: solid white 1px;
+	width: 54%;
+}
+
+.our-photos .item, .item-active {
+	padding: 10% 10% 10% 10%;
+}
+
+.our-photos img {
+	border: solid white 2px;
 }
 
 .our-story {
-	background-color: blue;
+	background: #c2c4be;
+	margin: 1% 0 1% 1%;
+	border: solid black 1px;
 }
 
 .wedding-party {
-	background-color: yellow;
+	padding-bottom: 5%;
+	background: black;
+}
+
+.wedding-party .item, .item-active {
+	padding-top: 5%;
 }
 
 .schedule {
-	background-color: green;
+	margin: 1% 1% 1% 1%;
+	width: 48%;
+	background: orange;
+	height: 200px; /*Get rid of this when there is actual content*/
 }
 
 .rsvp {
-	background-color: orange;
+	width: 48%;
+	margin: 1% 1% 1% 1%;
+	background: blue;
+	height: 200px; /*Get rid of this when there is actual content*/
 }
 
 .venue-photo {
-	background-color: gray;
+}
+
+.venue-photo img {
+	width: 100%;
 }
 
 .venue-desc {
-	background-color: purple;
+	background: #c2c4be;
 }
 
 .places {
-	background-color: blue;
+	
 }
 
 .registry {
-	background-color: yellow;
+
 }
