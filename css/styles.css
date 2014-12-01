@@ -95,3 +95,13 @@ p {
 .registry {
 
 }
+
+@media (max-width: 990px) {
+	.our-photos {
+		width: 100%;
+	}
+
+	.our-photos img {
+		width: 100%;
+	}
+}
