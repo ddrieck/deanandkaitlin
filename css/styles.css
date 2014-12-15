@@ -1,7 +1,7 @@
 body {
 	margin: 0 5% 0 5%;
 	/*background-image: url(../images/IMG_2194.jpg);*/
-	background-image: url(http://www.ddrieck.com/deanandkaitlin/images/background.jpg);
+	background-image: url(../images/background.jpg);
 	background-size: no-repeat center center fixed;
 }
 
@@ -9,7 +9,7 @@ h1, h2, h3 {
 	font-family: 'Playball', cursive;
 }
 
-p {
+p, label {
 	font-family: 'Antic Slab', serif;
 }
 
@@ -23,21 +23,18 @@ p {
 }
 
 .heading {
-	background: #c2c4be;
-	border: solid black 1px;
-	margin-top: 2%;
+	text-align: center;
+	width: 100%;
 }
 
 #title {
-	padding-left: 20%;
 	font-size: 6em;
+	margin-bottom: 0;
 }
 
-.our-photos {
-	margin: 1% 1% 1% 0%;
-	background: black;
-	border: solid white 1px;
-	width: 54%;
+#subtitle {
+	margin-top: 0;
+	text-align: center;
 }
 
 .our-photos .item, .item-active {
@@ -50,31 +47,61 @@ p {
 
 .our-story {
 	background: #c2c4be;
-	margin: 1% 0 1% 1%;
 	border: solid black 1px;
+	margin-top: 6%;
+	margin-bottom: 10%;
 }
 
+.wedding-party-title {
+	text-align: center;
+	font-size: 2em;
+	background: #c2c4be;
+}
 .wedding-party {
-	padding-bottom: 5%;
-	background: black;
+	margin-left: 10%;
 }
 
-.wedding-party .item, .item-active {
-	padding-top: 5%;
+.wedding-party, .wedding-party-2 {
+	padding-bottom: 5%;
+}
+
+.wedding-party .item, .item-active, .wedding-party-2 .item, .item-active {
+	padding: 10% 10% 10% 10%;
 }
 
 .schedule {
-	margin: 1% 1% 1% 1%;
-	width: 48%;
-	background: orange;
-	height: 200px; /*Get rid of this when there is actual content*/
+	margin-left: 8%;
+	background: #c2c4be;
 }
 
 .rsvp {
-	width: 48%;
-	margin: 1% 1% 1% 1%;
-	background: blue;
-	height: 200px; /*Get rid of this when there is actual content*/
+	background: #c2c4be;
+	padding-bottom: 5%;
+	margin-left: 7%;
+	margin-bottom: 3%;
+}
+
+#form-title {
+	font-family: 'Playball', cursive;
+	font-size: 2em;
+}
+
+#comments, #name, #email {
+	width: 70%;
+}
+
+.guests-div, .party-div {
+	display: none;
+	float: left;
+	width: 45%;
+}
+
+.rsvp input, select {
+	margin-bottom: 4%;
+}
+
+.rsvp label {
+	margin-bottom: 1%;
 }
 
 .venue-photo {

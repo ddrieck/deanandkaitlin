@@ -11,6 +11,7 @@
 <body>
 	<section class="heading col-md-12 col-xs-12">
 		<h1 id="title"> Dean and Kaitlin </h1>
+		<h3 id="subtitle"> August 22nd, 2015 </h3>
 	</section>
 	<section class="our-photos col-md-7 col-xs-12">
 		<div id="our-photo-carousel" class="carousel slide" data-ride="carousel">
@@ -54,75 +55,80 @@
 		      <img src="images/our-story/DSC_0175.JPG" alt="...">
 		      </div>
 		  </div>
-
-		  <!-- Controls -->
-		  <a class="left carousel-control" href="#our-photo-carousel" role="button" data-slide="prev">
-		    <span class="glyphicon glyphicon-chevron-left"></span>
-		    <span class="sr-only">Previous</span>
-		  </a>
-		  <a class="right carousel-control" href="#our-photo-carousel" role="button" data-slide="next">
-		    <span class="glyphicon glyphicon-chevron-right"></span>
-		    <span class="sr-only">Next</span>
-		  </a>
 		</div>
 	</section>
 	<section class="our-story col-md-5 col-xs-12">
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nulla dolore pariatur expedita labore adipisci omnis. Distinctio illo voluptate, sint odit cupiditate pariatur quaerat qui molestiae veritatis aut in itaque.</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem officia, assumenda, distinctio incidunt fugiat aut a aliquam officiis ullam vero dolore, quod suscipit nulla numquam laudantium sunt libero quia tempora?
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero at illum itaque voluptatum expedita eveniet officiis facere sequi vel blanditiis ab quia totam, earum, pariatur, quo iusto velit. Aliquam, architecto.</p>
+		<p>Dean first charmed me in keeper pants, flying through the air saving soccer balls. If you don't already know, and I'd be surprised if you didn't, Dean is Dutch. His favorite color is orange, though he occasionally sports rave green in support of the Seattle Sounders Football Club. He is also a nerd and he'd be offended if you didn't agree. Oh, and Dean doesn't like red wine, chocolate, or beer. WHAT?!? I know. More for me.</p>
+		<p>All kidding aside, Dean shows me everyday what it means to really be yourself and own it. And he expects me to do the same. He loves me madly and supports me wherever I go and whatever I do. Also, he is super good looking.</p>
+		<p>Dean first charmed me in keeper pants, flying through the air saving soccer balls like Kasey Keller... well, almost. If you don't already know, and I'd be surprised if you didn't, Dean is Dutch. His favorite color is orange, though he occasionally sports rave green in support of the Seattle Sounders Football Club. Oh, and Dean doesn't like red wine, chocolate, or beer. WHAT?!? I know. More for me.</p>
+		<p>All kidding aside, Dean shows me everyday what it means to really be yourself and own it. And he expects me to do the same. He loves me madly and supports me wherever I go and whatever I do. Also, he is super good looking. </p>
 	</section>
-	<section class="wedding-party col-md-12 col-xs-12">
+	<section class="rsvp col-md-5 col-xs-12">
+		<form id="input-form" action="" method="POST" target="no-target">
+			<fieldset>
+			<legend id="form-title">RSVP</legend>
+			<label>Name: </label><br /><input id="name" type="text" placeholder="Name" name="name" required="required"><br />
+			<label>Email: </label><br /><input id="email" type="email" placeholder="Email" name="email"><br />
+			<label>Will You Attend?</label><br />
+			<label for="yes">Yes </label><input id="attending" type="radio" name="attending" value="yes">
+			<label for="no">No </label><input id="attending" type="radio" name="attending" value="no"><br />
+			<div class="party-div"><label>Party Size: </label><br /><select name="party" id="party">
+				<option value="0">0</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select></div>
+			<div class="guests-div"><label>Guests: </label></div><br />
+			<div class="guests-div"><textarea id="guests" name="guests" rows="2" placeholder="Besides you, who else will be attending?"></textarea></div>
+			<label>Comments</label><br />
+			<textarea id="comments" name="comments" rows="4" placeholder="i.e. food restrictions, questions, sage advice, stock tips, etc."></textarea><br />
+			<button id="form-submit" type="submit">Submit</button>
+			</fieldset>
+		</form>
+	</section>
+	<section class="schedule col-md-5 col-xs-12">
+		<h3>August 22, 2015</h3><br />
+
+		<p>6:00 PM Ceremony<br />
+		Reception to follow</p>
+
+	</section>
+	<section class="wedding-party-title col-md-12"><h1>The Wedding Party</h1></section>
+	<section class="wedding-party col-md-5 col-xs-12">
 		<div id="wedding-party-carousel" class="carousel slide" data-ride="carousel">
 
 		  <!-- Wrapper for slides -->
 		  <div class="carousel-inner" role="listbox">
 		    <div class="item active">
-		      <img src="images/wedding-party/DSC_0123.JPG" alt="...">
-		      <div class="carousel-caption">
-		        <h3>Gene Rieck</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam consectetur cumque eveniet incidunt quo perferendis, necessitatibus impedit ratione dolor modi doloribus voluptates dicta, molestiae dolore, error ducimus saepe. Culpa, mollitia!</p>
-		      </div>
-		    </div>
-		    <div class="item">
 		      <img src="images/wedding-party/DSC_0099.JPG" alt="...">
 		      <div class="carousel-caption">
 		      	<h3>Liz Gossard</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam consectetur cumque eveniet incidunt quo perferendis, necessitatibus impedit ratione dolor modi doloribus voluptates dicta, molestiae dolore, error ducimus saepe. Culpa, mollitia!</p>
-		      </div>
-		    </div>
-		    <div class="item">
-		      <img src="images/wedding-party/DSC_0081.JPG" alt="...">
-		      <div class="carousel-caption">
-		      <h3>Jos and Sylvia Rieck</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi iusto vero maiores rerum, dignissimos. Ipsum natus, enim possimus inventore eligendi. Officia amet enim, assumenda perferendis iusto! Nisi, incidunt perspiciatis!</p>
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="images/wedding-party/DSC_0071.JPG" alt="...">
 		      <div class="carousel-caption">
 		      <h3>Ian Coleman</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi iusto vero maiores rerum, dignissimos. Ipsum natus, enim possimus inventore eligendi. Officia amet enim, assumenda perferendis iusto! Nisi, incidunt perspiciatis!</p>
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="images/wedding-party/DSC_0065.JPG" alt="...">
 		      <div class="carousel-caption">
 		      <h3>Bob and Jennifer Coleman</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi iusto vero maiores rerum, dignissimos. Ipsum natus, enim possimus inventore eligendi. Officia amet enim, assumenda perferendis iusto! Nisi, incidunt perspiciatis!</p>
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="images/wedding-party/DSC_0062.JPG" alt="...">
 		      <div class="carousel-caption">
 		      <h3>Leora Coleman-Fire</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi iusto vero maiores rerum, dignissimos. Ipsum natus, enim possimus inventore eligendi. Officia amet enim, assumenda perferendis iusto! Nisi, incidunt perspiciatis!</p>
 		      </div>
 		    </div>
 		    <div class="item">
 		      <img src="images/wedding-party/DSC_0059.JPG" alt="...">
 		      <div class="carousel-caption">
 		      <h3>Bethany Coleman-Fire</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi iusto vero maiores rerum, dignissimos. Ipsum natus, enim possimus inventore eligendi. Officia amet enim, assumenda perferendis iusto! Nisi, incidunt perspiciatis!</p>
 		      </div>
 		    </div>		    		    
 		  </div>
@@ -138,28 +144,47 @@
 		  </a>
 		</div>
 	</section>
-	<section class="schedule col-md-6 col-xs-12">
-		<h3> You want a schedule already? All I got is the date. August 22nd, 2015. Just free up the whole day. I know you don't have anything going on.</h3>
+	<section class="wedding-party-2 col-md-5 col-xs-12">
+		<div id="wedding-party-carousel-2" class="carousel slide" data-ride="carousel">
 
+		  <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+		    <div class="item active">
+		      <img src="images/wedding-party/DSC_0123.JPG" alt="...">
+		      <div class="carousel-caption">
+		        <h3>Gene Rieck</h3>
+		      </div>
+		    </div>
+		    <div class="item">
+		      <img src="images/wedding-party/DSC_0081.JPG" alt="...">
+		      <div class="carousel-caption">
+		      <h3>Jos and Sylvia Rieck</h3>
+		      </div>
+		    </div>		    		    
+		  </div>
+
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#wedding-party-carousel-2" role="button" data-slide="prev">
+		    <span class="glyphicon glyphicon-chevron-left"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#wedding-party-carousel-2" role="button" data-slide="next">
+		    <span class="glyphicon glyphicon-chevron-right"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
 	</section>
-	<section class="rsvp col-md-6 col-xs-12">
-		<form action="https://docs.google.com/forms/d/1Iza9GWuT8LU0AY4kzv2e039LxlL7R3FBdPdzmI7aYHs/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
-		</form>
-		<h3> I'm going to get this stupid form working. Until then wait patiently.</h3>
-	</section>
-	<section class="venue-photo col-md-6 col-xs-12">
-		<img src="images/location.jpg">
-	</section>
+
 	<section class="venue-desc col-md-6 col-xs-12">
-		<h3>We are getting married at Januik - Novelty Hill Winery in Woodenville, Washington. Wanna get there? Use Google like the rest of world. Jeez got to do everything for you people. Sort. It. Out. </h3>
-	</section>
-	<section class="places col-md-12 col-xs-12">
-		
+		<h3>Novelty Hill Januik, a Woodinville Winery</h3>
+		<p>14710 Woodinville-Redmond Rd NE<br /> Woodinville, WA 98072<br />
+		Get Directions: <a href="https://goo.gl/maps/zbpgS">https://goo.gl/maps/zbpgS</a></p>
 	</section>
 	<section class="registry col-md-12 col-xs-12">
 		
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/form-processing.js"></script>
 </body>
 </html>
