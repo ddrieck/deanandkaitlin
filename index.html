@@ -64,15 +64,15 @@
 		<p>All kidding aside, Dean shows me everyday what it means to really be yourself and own it. And he expects me to do the same. He loves me madly and supports me wherever I go and whatever I do. Also, he is super good looking. </p>
 	</section>
 	<section class="rsvp col-md-5 col-xs-12">
-		<form id="input-form" action="" method="POST" target="no-target">
+		<form id="input-form" action="" method="POST" target="_self">
 			<fieldset>
 			<legend id="form-title">RSVP</legend>
-			<label>Name: </label><br /><input id="name" type="text" placeholder="Name" name="name" required="required"><br />
-			<label>Email: </label><br /><input id="email" type="email" placeholder="Email" name="email"><br />
+			<label>Name: </label><br /><input id="name" type="text" placeholder="Name" name="Name" required="required"><br />
+			<label>Email: </label><br /><input id="email" type="email" placeholder="Email" name="Email"><br />
 			<label>Will You Attend?</label><br />
-			<label for="yes">Yes </label><input id="yes-select" class="attending" type="radio" name="attending" value="yes">
-			<label for="no">No </label><input id="no-select" class="attending" type="radio" name="attending" value="no"><br />
-			<div class="party-div"><label>Party Size: </label><br /><select name="party" id="party">
+			<label for="yes">Yes </label><input id="yes-select" class="attending" type="radio" name="Attending" value="yes">
+			<label for="no">No </label><input id="no-select" class="attending" type="radio" name="Attending" value="no"><br />
+			<div class="party-div"><label>Party Size: </label><br /><select name="Party" id="party">
 				<option value="0">0</option>
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -81,10 +81,10 @@
 				<option value="5">5</option>
 			</select></div>
 			<div class="guests-div"><label>Guests: </label></div><br />
-			<div class="guests-div"><textarea id="guests" name="guests" rows="2" placeholder="Besides you, who else will be attending?"></textarea></div>
+			<div class="guests-div"><textarea id="guests" name="Guests" rows="2" placeholder="Besides you, who else will be attending?"></textarea></div>
 			<label>Comments</label><br />
-			<textarea id="comments" name="comments" rows="4" placeholder="i.e. food restrictions, questions, sage advice, stock tips, etc."></textarea><br />
-			<button id="form-submit" type="submit">Submit</button>
+			<textarea id="comments" name="Comments" rows="4" placeholder="i.e. food restrictions, questions, sage advice, stock tips, etc."></textarea><br />
+			<button id="form-submit" type="submit" >Submit</button>
 			</fieldset>
 		</form>
 	</section>
@@ -185,6 +185,7 @@
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
 	<script type="text/javascript" src="js/form-processing.js"></script>
 </body>
 </html>
