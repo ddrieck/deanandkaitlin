@@ -64,29 +64,94 @@
 		<p>All kidding aside, Dean shows me everyday what it means to really be yourself and own it. And he expects me to do the same. He loves me madly and supports me wherever I go and whatever I do. Also, he is super good looking. </p>
 	</section>
 	<section class="rsvp col-md-5 col-xs-12">
-		<form id="input-form" action="" method="POST" target="_self">
-			<fieldset>
-			<legend id="form-title">RSVP</legend>
-			<label>Name: </label><br /><input id="name" type="text" placeholder="Name" name="Name" required="required"><br />
-			<label>Email: </label><br /><input id="email" type="email" placeholder="Email" name="Email"><br />
-			<label>Will You Attend?</label><br />
-			<label for="yes">Yes </label><input id="yes-select" class="attending" type="radio" name="Attending" value="yes">
-			<label for="no">No </label><input id="no-select" class="attending" type="radio" name="Attending" value="no"><br />
-			<div class="party-div"><label>Party Size: </label><br /><select name="Party" id="party">
-				<option value="0">0</option>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
-				<option value="5">5</option>
-			</select></div>
-			<div class="guests-div"><label>Guests: </label></div><br />
-			<div class="guests-div"><textarea id="guests" name="Guests" rows="2" placeholder="Besides you, who else will be attending?"></textarea></div>
-			<label>Comments</label><br />
-			<textarea id="comments" name="Comments" rows="4" placeholder="i.e. food restrictions, questions, sage advice, stock tips, etc."></textarea><br />
-			<button id="form-submit" type="submit" >Submit</button>
-			</fieldset>
+	
+	<script type="text/javascript">var submitted=false;</script>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='http://deanandkaitlin.com';}"></iframe>
+	<form action="https://docs.google.com/forms/d/1Iza9GWuT8LU0AY4kzv2e039LxlL7R3FBdPdzmI7aYHs/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
+	<!-- <form action="https://docs.google.com/forms/d/1Iza9GWuT8LU0AY4kzv2e039LxlL7R3FBdPdzmI7aYHs/formResponse" method="POST" id="ss-form" target="_self" onsubmit="hidden_iframe"> -->		<fieldset>
+        <legend id="form-title">RSVP</legend>
+		<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item  ss-text">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_991411239">
+				<div class="ss-q-title">Name</div>
+				<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label><br />
+					<input name="entry.991411239" value="" class="ss-q-short valid" id="entry_991411239" dir="auto" aria-label="Name  " title="" type="text">
+					<div class="error-message" id="1432363603_errorMessage"></div>
+			</div>
+		</div>
+		</div> 
+		<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item  ss-text">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_797029182">
+				<div class="ss-q-title">Email</div>
+				<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label><br />
+					<input name="entry.797029182" value="" class="ss-q-short" id="entry_797029182" dir="auto" aria-label="Email  Must be a valid email address" title="Must be a valid email address" type="email">
+			</div>
+		</div>
+		</div> 
+		<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item  ss-radio">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_1985647294">
+				<div class="ss-q-title">Will You Attend?</div>
+				<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label><br />
+					<label><span class="ss-choice-item-control goog-inline-block"><input name="entry.37903139" value="Yes" id="group_37903139_1" role="radio" class="ss-q-radio yes-select" aria-label="Yes" type="radio"></span>
+					<span class="ss-choice-label">Yes</span></label><br />
+					<input name="entry.37903139" value="No" id="group_37903139_2" role="radio" class="ss-q-radio no-select" aria-label="No" type="radio">
+					<span class="ss-choice-label">No</span><br />
+				</div>
+			</div>
+		</div>  
+		<div class="ss-form-question errorbox-good party-div" role="listitem">
+		<div dir="ltr" class="ss-item  ss-select">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_1901209542">
+				<div class="ss-q-title">Party Size</div></label><br />
+				<select name="entry.1901209542" id="entry_1901209542" aria-label="Party Size">
+					<option value=""></option>
+					<option value="1">1</option> 
+					<option value="2">2</option> 
+					<option value="3">3</option> 
+					<option value="4">4</option> 
+					<option value="More?">More?</option>
+				</select>
+			</div>
+		</div>
+		</div> 
+		<div class="ss-form-question errorbox-good guests-div" role="listitem">
+		<div dir="ltr" class="ss-item  ss-paragraph-text">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_1852347906">
+				<div class="ss-q-title">Guests</div>
+				<div class="ss-q-help ss-secondary-text" dir="ltr"></div></label><br />
+				<textarea name="entry.1852347906" rows="4" cols="0" class="ss-q-long" id="entry_1852347906" dir="auto" aria-label="Guests" placeholder="Besides you, how many are you bringing?"></textarea>
+				<div class="error-message" id="1132879253_errorMessage"></div>
+			</div>
+		</div>
+		</div>
+		<div class="ss-form-question errorbox-good" role="listitem">
+		<div dir="ltr" class="ss-item  ss-paragraph-text">
+			<div class="ss-form-entry">
+				<label class="ss-q-item-label" for="entry_390843563">
+				<div class="ss-q-title">Comments</div>
+				</label><br />
+				<textarea name="entry.390843563" rows="4" cols="0" class="ss-q-long" id="entry_390843563" dir="auto" aria-label="Comments Ex: food restrictions, good puns, stock tips " placeholder="Comments Ex: food restrictions, good puns, stock tips "></textarea>
+				<div class="error-message" id="545183221_errorMessage"></div>
+			</div>
+		</div>
+		</div>
+		<input name="draftResponse" value="[,,&quot;3417373399912094175&quot;]
+		" type="hidden">
+		<input name="pageHistory" value="0" type="hidden">
+		<input name="fbzx" value="3417373399912094175" type="hidden">
+		<div class="ss-item ss-navigate">
+		<input name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action " type="submit">
+		</div>
+		</fieldset>
 		</form>
+	
 	</section>
 	<section class="schedule col-md-5 col-xs-12">
 		<h3>August 22, 2015</h3><br />

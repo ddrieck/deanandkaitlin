@@ -92,8 +92,6 @@ p, label {
 
 .guests-div, .party-div {
 	display: none;
-	float: left;
-	width: 45%;
 }
 
 .rsvp input, select {
@@ -102,6 +100,10 @@ p, label {
 
 .rsvp label {
 	margin-bottom: 1%;
+}
+
+.rsvp textarea {
+	width: 80%;
 }
 
 .venue-photo {
