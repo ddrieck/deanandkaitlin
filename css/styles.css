@@ -106,6 +106,14 @@ p, label {
 	width: 80%;
 }
 
+.rsvp legend {
+	margin-bottom: 0px;
+}
+
+.legend-text {
+	text-align: center;
+}
+
 .venue-photo {
 }
 
@@ -134,4 +142,45 @@ p, label {
 	.our-photos img {
 		width: 100%;
 	}
+
+	.rsvp {
+		margin-left: 0px;
+	}
+
+	.rsvp label{
+		font-size: 2em;
+	}
+
+	.schedule {
+		margin-left: 0px;
+		margin-bottom: 5%;
+	}
+
+	.wedding-party {
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.wedding-party img {
+		width: 100%
+	}
+
+	.carousel-caption {
+		color: black;
+		padding-bottom: 3%;
+	}
+
+	.carousel-caption h3 {
+		font-size: 3em;
+	}
+
+	.wedding-party-2 img {
+		width: 100%
+	}
+
+	.wedding-party-2 {
+		margin-left: 0px;
+		width: 100%;
+	}
+
 }
