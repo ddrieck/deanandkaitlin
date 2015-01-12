@@ -5,7 +5,7 @@ body {
 	background-size: no-repeat center center fixed;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Playball', cursive;
 }
 
@@ -58,6 +58,7 @@ p, label {
 	background: #c2c4be;
 	width: 92%;
 	margin-left: 7%;
+	margin-top: 4%;
 }
 .wedding-party {
 	margin-left: 10%;
@@ -116,7 +117,10 @@ p, label {
 	text-align: center;
 }
 
-.venue-photo {
+.google-map {
+	margin-bottom: 5%;
+	padding: 1% 1% 1% 1%;
+	width: 90%;
 }
 
 .venue-photo img {
@@ -125,7 +129,7 @@ p, label {
 
 .venue-desc {
 	background: #c2c4be;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .places {
