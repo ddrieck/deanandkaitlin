@@ -174,10 +174,6 @@ p, label {
 		padding-bottom: 3%;
 	}
 
-	.carousel-caption h3 {
-		font-size: 3em;
-	}
-
 	.wedding-party-2 img {
 		width: 100%
 	}
@@ -185,6 +181,18 @@ p, label {
 	.wedding-party-2 {
 		margin-left: 0px;
 		width: 100%;
+	}
+
+	.wedding-party-title {
+		margin-left: 0px;
+	}
+
+	.venue-desc {
+		margin-left: 0px;
+	}
+
+	.registry {
+		margin-left: 0px;
 	}
 
 }
