@@ -46,8 +46,7 @@ p, label {
 }
 
 .our-story {
-	background: #c2c4be;
-	border: solid black 1px;
+	background: rgba(194, 196, 190, .8);
 	margin-top: 6%;
 	margin-bottom: 10%;
 }
@@ -55,7 +54,7 @@ p, label {
 .wedding-party-title {
 	text-align: center;
 	font-size: 2em;
-	background: #c2c4be;
+	background: rgba(194, 196, 190, .8);
 	width: 92%;
 	margin-left: 7%;
 	margin-top: 4%;
@@ -74,11 +73,11 @@ p, label {
 
 .schedule {
 	margin-left: 8%;
-	background: #c2c4be;
+	background: rgba(194, 196, 190, .8);
 }
 
 .rsvp {
-	background: #c2c4be;
+	background: rgba(194, 196, 190, .8);
 	padding-bottom: 5%;
 	margin-left: 7%;
 	margin-bottom: 3%;
@@ -128,16 +127,15 @@ p, label {
 }
 
 .venue-desc {
-	background: #c2c4be;
+	background: rgba(194, 196, 190, .8);
 	margin-bottom: 5%;
-}
-
-.places {
-	
+	margin-left: 8%;
 }
 
 .registry {
-
+	background: rgba(194, 196, 190, .8);
+	margin-bottom: 5%;
+	margin-left: 7%;
 }
 
 @media (max-width: 990px) {
