@@ -37,6 +37,10 @@ p, label {
 	text-align: center;
 }
 
+.our-photos {
+	margin-top: 2%;
+}
+
 .our-photos .item, .item-active {
 	padding: 10% 10% 10% 10%;
 }
