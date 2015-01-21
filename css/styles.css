@@ -149,10 +149,12 @@ p, label {
 
 	.rsvp {
 		margin-left: 0px;
+		font-size: 2em;
 	}
 
-	.rsvp label{
-		font-size: 2em;
+	.google-map iframe {
+		height: 600px;
+		width: 600px;
 	}
 
 	.schedule {
