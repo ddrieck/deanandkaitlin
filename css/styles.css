@@ -115,6 +115,10 @@ p, label {
 	margin-bottom: 0px;
 }
 
+#hidden-response {
+	display: none;
+}
+
 .legend-text {
 	text-align: center;
 }

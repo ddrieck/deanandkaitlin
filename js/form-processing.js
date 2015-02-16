@@ -8,6 +8,7 @@ $(document).ready(function(){
 	});
 
 	$("#rsvp-form").submit(function(){
-		$("#rsvp-form").replaceWith("<h3>Thanks for your submission.</h3>");
+		$("#hidden-response").show();
+		$("#replace-div").hide();
 	})
 });
