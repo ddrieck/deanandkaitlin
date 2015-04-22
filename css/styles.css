@@ -77,11 +77,11 @@ p, label {
 .schedule {
 	margin-left: 8%;
 	background: rgba(194, 196, 190, .8);
+	margin-bottom: 5%;
 }
 
 .rsvp {
 	background: rgba(194, 196, 190, .8);
-	padding-bottom: 5%;
 	margin-left: 7%;
 	margin-bottom: 3%;
 }
