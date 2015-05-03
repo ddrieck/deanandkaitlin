@@ -146,6 +146,17 @@ p, label {
 	margin-left: 7%;
 }
 
+.registry > p {
+	text-align: center;
+}
+
+.registry-images {
+	width: 75%;
+	display: block;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
 @media (max-width: 990px) {
 	.our-photos {
 		width: 100%;
